@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "./components/Card";
 import { makeStyles } from "@material-ui/core/styles";
+import DfsImg from "./../images/Algo Pics/Dfs.png";
+import DijkstraImg from "./../images/Algo Pics/Dijkstra.png";
 
 import LinkedListImg from "./../images/Algo Pics/LinkedList.png";
 
@@ -34,6 +36,22 @@ function Home() {
 				url: "/singlylinklist",
 				desc:
 					"SinglyLinked List is a Data Structure. Where every node pointing a Tail and adding or removing an element in a Linked List from the front,the end or from anywhere in the list But in This project we can remove or add from last in list.It's like VECTOR in Mathematices because it's one directional ",
+			},
+		],
+		[
+			{
+				title: "Dfs",
+				imgSrc: DfsImg,
+				url: "/dfs",
+				desc:
+					"DFS is searching technique an element in a Graph. Here BFS is using 'Backtracking' for searching an element.	And it's search in Defth of an Graph if elements not found then backtrack will Happen",
+			},
+			{
+				title: "Dijkstra",
+				imgSrc: DijkstraImg,
+				url: "/dijkstra",
+				desc:
+					"Dijkstra is a path finding algorithm.It is used in .It can find shortest path between two nodes in a Graph.It can perform only in weighted graph.To find two nodes we can use adjacency list or matrix.  ",
 			},
 		],
 

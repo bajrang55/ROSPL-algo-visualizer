@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import circleFun from "./utils/circleForCanvas";
 import lineFun from "./utils/lineForCanvas";
 import arrowFun from "./utils/arrowForCanvas";
+import dijkstraAlgo from "./utils/algorithms/DijkstraAlgo";
 
 
 const useStyle = makeStyles({

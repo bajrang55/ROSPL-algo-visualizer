@@ -30,6 +30,9 @@ import HomePage from "./pages/Home";
 
 import SinglyLinkList from "./pages/SinglyLinkLIst";
 
+import Dijkstra from "./pages/Dijkstra";
+import Dfs from "./pages/Dfs";
+
 import { SnackbarProvider } from "notistack";
 
 function App() {
@@ -41,6 +44,8 @@ function App() {
 					<Route path="/" exact component={HomePage} />
 					
 					<Route path="/singlylinklist" exact component={SinglyLinkList} />
+					<Route path="/dfs" exact component={Dfs} />
+					<Route path="/dijkstra" exact component={Dijkstra} />
 					
 				</Switch>
 			</div>

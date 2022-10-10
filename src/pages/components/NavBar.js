@@ -13,6 +13,10 @@ function NavBar() {
 				
 				<NavLink to="/singlylinklist">Singly Linked List</NavLink>
 
+				<NavLink to="/dfs">DFS</NavLink>
+
+				<Link to="/dijkstra">Dijkstra Algo</Link>
+
 				
 			</div>
 		</nav>
