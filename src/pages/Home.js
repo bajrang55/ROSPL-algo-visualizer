@@ -3,7 +3,8 @@ import Card from "./components/Card";
 import { makeStyles } from "@material-ui/core/styles";
 import DfsImg from "./../images/Algo Pics/Dfs.png";
 import DijkstraImg from "./../images/Algo Pics/Dijkstra.png";
-
+import BubbleSortImg from "./../images/Algo Pics/BubbleSort.png";
+import QuickSortImg from "./../images/Algo Pics/QuickSort.png";
 import LinkedListImg from "./../images/Algo Pics/LinkedList.png";
 
 import { Link } from "react-router-dom";
@@ -30,6 +31,20 @@ function Home() {
 	const { MainDiv, cards } = classes;
 	const numOfCard = [
 		[
+			{
+				title: "Bubble Sort",
+				imgSrc: BubbleSortImg,
+				url: "/bubblesort",
+				desc:
+					"Bubble Sort is the simplest sorting algorithm .This sorting algorithm is slow.It compares between two elements,larger element among those comparable element swap with small element and placed in right.It used loop that's why it's time complexity is high.🙂",
+			},
+			{
+				title: "Quick Sort",
+				imgSrc: QuickSortImg,
+				url: "/quicksort",
+				desc:
+					"Quick Sort is also sorting algorithm .It's name Quick sort that does n't mean it is Fastest Algorithm 😃. It is faster than Bubble sort. It is divide and conquer algorithm so , It's use Recursion .So time complexity is less compair to Bubble Sort .  ",
+			},
 			{
 				title: " Singly Linked List",
 				imgSrc: LinkedListImg,

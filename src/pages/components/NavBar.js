@@ -10,11 +10,15 @@ function NavBar() {
 			<Logo heightInPixel={47} style={{ cursor: "pointer" }} to="/" />
 
 			<div className="Link-Container">
-				
-				<NavLink to="/singlylinklist">Singly Linked List</NavLink>
 
+				<NavLink to="/bubblesort">Bubble Sort</NavLink>
+
+				<NavLink to="/quicksort">Quick Sort</NavLink>
+				
 				<NavLink to="/dfs">DFS</NavLink>
 
+				<NavLink to="/singlylinklist">Singly Linked List</NavLink>
+				
 				<Link to="/dijkstra">Dijkstra Algo</Link>
 
 				
